@@ -13,22 +13,21 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: true, amount: 0.8 }}
-            className='justify-betweenlg:mr-8 flex w-full flex-col lg:w-1/2'
+            className='justify-between lg:mr-8 flex w-full flex-col lg:w-1/2'
           >
             <h1 className='pb-4 text-[40px] font-bold leading-[3rem]'>
               What We do i help?
             </h1>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old.
+            I craft cutting-edge software solutions with a focus on performance, security, 
+            and seamless user experiences, guiding clients to achieve their tech goals.
             </p>
             <div className='flex justify-between space-x-4 py-8'>
               <div className='flex flex-col items-center justify-center'>
                 <p className='text-lg font-semibold uppercase'> Projects</p>
                 <p className='text-[36px] font-bold text-blue'>
                   {' '}
-                  + <AnimatedCounter from={0} to={45} />
+                  + <AnimatedCounter from={0} to={10} />
                 </p>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -37,7 +36,7 @@ const Services = () => {
                   satisfied client
                 </p>
                 <p className='text-[36px] font-bold text-blue'>
-                  <AnimatedCounter from={0} to={25} />
+                  <AnimatedCounter from={0} to={15} />
                 </p>
               </div>
             </div>
@@ -56,8 +55,8 @@ const Services = () => {
                   Front-end development
                 </h2>
                 <p>
-                  Covert your Figma/XD design to full responsive web app with
-                  react/next js or angular or HTML with tailwind css
+                Convert your Figma/XD designs into responsive web apps with React/Next.js, Angular, or HTML using Tailwind CSS,
+                 ensuring pixel-perfect accuracy and seamless integration.
                 </p>
               </div>
             </div>
@@ -68,7 +67,7 @@ const Services = () => {
                   Back-end development
                 </h2>
                 <p>
-                  buid your full web app with cutting-edge web development
+                  build your full web app with cutting-edge web development
                   technologies
                 </p>
               </div>

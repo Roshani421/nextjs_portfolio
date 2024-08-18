@@ -1,19 +1,23 @@
-import { FaGithub, FaYoutube, FaStackOverflow } from 'react-icons/fa'
+import { FaGithub, FaFacebookSquare, FaLinkedin, FaInstagramSquare} from 'react-icons/fa'
 import Link from 'next/link'
 
 const socialLinks = [
   {
     icon: <FaGithub />,
-    path: 'https://github.com/amgoun'
+    path: 'https://github.com/Roshani421'
   },
   {
-    icon: <FaYoutube />,
-    path: 'https://www.youtube.com/channel/UCbsnQ_ADchMvoOYgbrPsfFw'
+    icon: <FaFacebookSquare />,
+    path: 'https://www.facebook.com/roshni.subedi.520/'
   },
   {
-    icon: <FaStackOverflow />,
-    path: 'https://stackoverflow.com/users/8044017/amgoun'
-  }
+    icon: <FaLinkedin />,
+    path: 'https://www.linkedin.com/in/roshni-subedi-525b8b1a0/'
+  },
+  {
+    icon: <FaInstagramSquare />,
+    path: 'https://www.instagram.com/meow_meowwww06/'
+  },
 ]
 const Social = () => {
   return (

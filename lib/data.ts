@@ -1,29 +1,27 @@
 export const projectsData = [
   {
     id: 1,
-    image: '/projects/01.png',
-    category: 'Front-end',
-    title: 'Figma to react/nextjs',
-    description:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested'
+    image: '/projects/harmonix.png',
+    category: 'Front-end/back-end',
+    title: 'Pythons',
+    description: 'An audio source separation where vocals and instrumental tracks are separated using Spleeter',
   },
   {
     id: 2,
-    image: '/projects/02.png',
-    category: 'Full-stack',
-    title: ' Github API',
-    description:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested'
+    image: '/projects/logiccircuit.png',
+    category: 'Front-end',
+    title: 'Build with Java',
+    description: 'Users can create and interact with various gates to see real-time outputs, providing a practical tool for academic purposes.',
   },
   {
     id: 3,
-    image: '/projects/03.png',
+    image: '/projects/sportify.png',
     category: 'Full-stack',
-    title: ' Graphql By example',
-    description:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested'
-  }
+    title: 'Build with MongoDB and PHP',
+    description: 'Managing data on paper can be tedious and time-consuming, so users can log in and sign up to select their games based on their preferences.',
+  },
 ]
+
 
 export const askedQuestions = [
   {
@@ -35,7 +33,7 @@ export const askedQuestions = [
   {
     id: 2,
     qs: 'are you working hourly base or by projects ?',
-    answer: 'both of them it&apos; depends on client choice'
+    answer: 'both of them it& apos; depends on client choice'
   },
   {
     id: 3,

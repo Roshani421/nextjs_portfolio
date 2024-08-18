@@ -13,27 +13,26 @@ const Hero = () => {
           <div className='text-center xl:text-left'>
             <span>Hello i&apos;m</span>
             <h1 className='text-[40px] font-bold capitalize leading-[3rem]'>
-              rachid <br />
-              <span className='under-line'>Amgoun</span>
+              roshani <br />
+              <span className='under-line'>Subedi</span>
             </h1>
             <div className='py-8'>
               <p>
-                I have the perfect solution for your web development needs. By
-                adopting a modern stack, like MERN, and incorporating TypeScript
-                for enhanced type safety, we can create an exceptional web
-                application.
+                As a passionate web developer, I specialize in turning ideas into dynamic, user-friendly web experiences. 
+                With a keen eye for design and a knack for coding, I blend creativity and technical expertise to build innovative solutions.
+                Lets collaborate to bring your digital vision to life and make an impact in the tech world!
               </p>
             </div>
             <div className='mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start xl:space-x-8'>
               <div className='flex gap-x-2'>
-                <Link
-                  href='https://res.cloudinary.com/dnsteuqq1/image/upload/cv_blijgd.pdf'
+              <Link
+                href='/hero/Roshani_Subedi_CV.pdf' 
                   target='_blank'
                   className='flex items-center space-x-2 rounded-full border-2 border-blue px-6 py-3 font-medium uppercase text-blue transition-all hover:bg-blue/80 hover:text-lighted'
-                >
-                  <span className='text-sm'>Download Cv</span>
-                  <Download className='size-5' />
-                </Link>
+                      >
+                    <span className='text-sm'>Download CV</span>
+                    <Download className='size-5' />
+                  </Link> \
               </div>
               <div className='flex py-4 xl:py-0'>
                 <Social />

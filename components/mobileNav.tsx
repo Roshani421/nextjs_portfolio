@@ -18,7 +18,7 @@ export const menu = [
     href: '/#FAQ'
   },
   {
-    name: 'Conact',
+    name: 'Connect',
     href: '/#contact'
   }
 ]
