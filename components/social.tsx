@@ -1,4 +1,7 @@
-import { FaGithub, FaFacebookSquare, FaLinkedin, FaInstagramSquare} from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { RiTwitterXFill } from 'react-icons/ri';
+import { SiGmail } from "react-icons/si";
+
 import Link from 'next/link'
 
 const socialLinks = [
@@ -7,16 +10,16 @@ const socialLinks = [
     path: 'https://github.com/Roshani421'
   },
   {
-    icon: <FaFacebookSquare />,
-    path: 'https://www.facebook.com/roshni.subedi.520/'
+    icon: <SiGmail />,
+    path: 'mailto:subediroshani19@gmail.com'
   },
   {
     icon: <FaLinkedin />,
     path: 'https://www.linkedin.com/in/roshni-subedi-525b8b1a0/'
   },
   {
-    icon: <FaInstagramSquare />,
-    path: 'https://www.instagram.com/meow_meowwww06/'
+    icon: <RiTwitterXFill />,
+    path: 'https://x.com/dark_sun421'
   },
 ]
 const Social = () => {

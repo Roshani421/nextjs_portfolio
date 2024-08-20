@@ -17,7 +17,7 @@ export const projectsData = [
     id: 3,
     image: '/projects/sportify.png',
     category: 'Full-stack',
-    title: 'Build with MongoDB and PHP',
+    title: 'Build with MongoDB, JS and PHP',
     description: 'Managing data on paper can be tedious and time-consuming, so users can log in and sign up to select their games based on their preferences.',
   },
 ]

@@ -41,7 +41,7 @@ export const Project = ({
           <Image
             src={image}
             width={360}
-            height={360}
+            height={350}
             alt='project image'
             className='inset-0 z-50 rounded-[50px] bg-cover transition-all hover:translate-x-[18px] hover:-rotate-45 hover:shadow-lg'
           />
